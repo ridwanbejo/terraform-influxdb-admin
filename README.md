@@ -5,7 +5,7 @@ This is a Terraform module for managing objects at InfluxDB. You can use this mo
 Currently, you can manage these resources in InfluxDB by using this module:
 
 - user
-- role
+- database
 - continuous query
 
 Tested in:
@@ -17,6 +17,7 @@ Tested in:
 Requirements:
 
 - Terraform with version >= 1.4
+- DrFaust92/influxdb = 1.6.1
 - hashicorp/random
 
 ## B. How to use this module for your Terraform project ?
@@ -24,7 +25,7 @@ Requirements:
 You can check any examples projects that use this module under `examples` directory.
 
 - user-1-basic
-- role-1-basic
+- database-1-basic
 - config-1-basic
 
 ## C. Understanding tfvars scenarios
@@ -32,7 +33,7 @@ You can check any examples projects that use this module under `examples` direct
 You can check any examples tfvars that use this module under `examples` directory.
 
 - user-1-basic
-- role-1-basic
+- database-1-basic
 - config-1-basic
 
 ## D. Ensuring quality
