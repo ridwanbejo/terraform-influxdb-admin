@@ -1,4 +1,4 @@
-name: "Terraform Module"
+name: "Terraform Modules"
 
 on:
   pull_request:
