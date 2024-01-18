@@ -1,4 +1,4 @@
-name: "Terraform-MongoDB-User Module"
+name: "Terraform Module"
 
 on:
   pull_request:
